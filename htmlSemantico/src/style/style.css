@@ -1,0 +1,117 @@
+*{
+margin: 0;
+box-sizing: border-box;
+padding: 0;
+overflow-x: hidden;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    border-bottom: 2px solid black;
+    background-color: beige;
+}
+
+#menuSeries {
+    border-right: 2px solid black;
+    text-align: center;
+}
+
+#navegationPage {
+    border-left: 2px solid black;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    border: 2x  solid saddlebrown;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+}
+
+.characters {
+    display: flex;
+}
+
+h1, h3 {
+    padding: 5px;
+}
+
+.titles {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    padding: 0 10px;
+}
+
+.p_index {
+    padding-top: 15px;
+}
+
+.recue {
+    text-indent: 15px;
+}
+
+aside {
+    width: 800px;
+}
+
+#logo {
+    width: 30rem;
+    margin: 0;
+}
+
+figure {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 120px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid black;
+    padding-top: 15px;
+    width: auto;
+    height: auto;
+}
+
+#rede_social__links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#red_social__links,li {
+    padding-left: 5px;
+}
+
+.rede_social__img{
+    width: 24px;
+}
+
+.rede_social__linkContent{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
